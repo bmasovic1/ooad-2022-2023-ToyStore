@@ -2,7 +2,7 @@
  
 ## Članovi tima:
 - [Berin Mašović](https://www.github.com/bmasovic1)
-- [Azra Đonlagić](www.github.com/Azra1802)
+- [Azra Đonlagić](https://www.github.com/Azra1802)
 - [Elhattab Yahia Aissa](https://github.com/hapiiiii)
 
 ## Opis teme
