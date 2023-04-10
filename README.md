@@ -10,3 +10,5 @@ Projekat online prodavnice igračaka je aplikacija koja omogućava korisnicima d
 
 Aplikacija takođe omogućava administratorima da dodaju nove proizvode u katalog, upravljaju zalihama, obradjuju narudžbine i prate performanse prodaje. Aplikacija treba da bude sigurna, brza i jednostavna za korišćenje.
  
+## Prototip 
+https://pr.to/5872T1/
