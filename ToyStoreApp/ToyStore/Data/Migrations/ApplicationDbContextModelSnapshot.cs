@@ -344,6 +344,9 @@ namespace ToyStore.Data.Migrations
                     b.Property<string>("Prezime")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Slika")
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("KorisnikId");
 
                     b.ToTable("Korisnik");

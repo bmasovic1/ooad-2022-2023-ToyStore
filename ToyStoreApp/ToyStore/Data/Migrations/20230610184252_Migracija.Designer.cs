@@ -10,7 +10,7 @@ using ToyStore.Data;
 namespace ToyStore.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230521185934_Migracija")]
+    [Migration("20230610184252_Migracija")]
     partial class Migracija
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -344,6 +344,9 @@ namespace ToyStore.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Prezime")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Slika")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("KorisnikId");

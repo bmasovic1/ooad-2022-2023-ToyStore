@@ -6,19 +6,12 @@ namespace ToyStore.Data.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropColumn(
-                name: "ArtikliId",
-                table: "Narudzba");
+
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<int>(
-                name: "ArtikliId",
-                table: "Narudzba",
-                type: "int",
-                nullable: false,
-                defaultValue: 0);
+
         }
     }
 }
