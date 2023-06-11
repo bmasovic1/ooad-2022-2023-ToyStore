@@ -22,22 +22,39 @@
                     <ul class="navbar-nav flex-grow-1">
 
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Artikal" asp-action="">Artikal</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Artikal" asp-action="">Artikli</a>
                         </li>
 
                         @if (User.Identity.IsAuthenticated)
                         {
+                           
+                            @if (!User.IsInRole("Uposlenik"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Narudzba" asp-action="">Narudzbe</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Feedback" asp-action="">Feedback</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Naplata" asp-action="">Naplate</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Kartica" asp-action="">Kartice</a>
+                                </li>
+                            }
+                        }
+                        @if (User.IsInRole("Admin"))
+                        {
+   
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Narudzba" asp-action="">Narudzba</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="RegistrovaniKorisnik" asp-action="">Registrovani Korisnici</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Feedback" asp-action="">Feedback</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Naplata" asp-action="">Naplata</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Uposlenik" asp-action="">Uposlenici</a>
                             </li>
                         }
-       
+
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
