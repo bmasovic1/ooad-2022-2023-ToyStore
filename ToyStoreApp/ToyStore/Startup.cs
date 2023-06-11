@@ -65,6 +65,13 @@ namespace ToyStore
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
+
+                endpoints.MapControllerRoute(
+                   name: "ONama",
+                   pattern: "ONama",
+                   defaults: new { controller = "ONama", action = "ONama" }
+               );
+
             });
         }
     }
