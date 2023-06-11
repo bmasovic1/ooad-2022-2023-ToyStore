@@ -2,6 +2,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel;
 
 namespace ToyStore.Models
 {
@@ -9,6 +10,7 @@ namespace ToyStore.Models
     {
         [Key]
         public int NaplataId { get; set; }
+        [DisplayName("Registrovani Korisnik")]
         public  RegistrovaniKorisnik RegKorisnik { get; set; }
         public  Kartica Kartica { get; set; }
         public  Narudzba Narudzba { get; set; }

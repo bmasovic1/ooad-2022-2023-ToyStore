@@ -7,9 +7,11 @@ namespace ToyStore.Models
     public class Kartica
     {
         [Key]
+
         public int KarticaId { get; set; }
 
         [DisplayName("Broj Kartica")]
+        [Range(1000000000000000, 9999999999999999, ErrorMessage = "Broj kartice mora sadržavati 16 cifara.")]
         public int BrojKartica { get; set; }
 
         [DisplayName("Mjesec Isteka")]

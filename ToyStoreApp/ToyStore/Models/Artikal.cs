@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -13,7 +14,10 @@ namespace ToyStore.Models
         public string Boja { get; set; }
         public string Dob { get; set; }
         public Pol Pol { get; set; }
+
+        [Range(1, Double.MaxValue, ErrorMessage = "Cijena ne smije biti negativna")]
         public double Cijena { get; set; }
+        [RegularExpression(@"^[0-9]+$", ErrorMessage = "Broj mora biti cijeli pozitivan broj")]
         public int Kolicina { get; set; }
         public List<Feedback> Feedback { get; set; }
 
