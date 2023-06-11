@@ -60,6 +60,7 @@ namespace ToyStore.Controllers
         {
             if (ModelState.IsValid)
             {
+                naplata.Datum = DateTime.Now;
                 _context.Add(naplata);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
