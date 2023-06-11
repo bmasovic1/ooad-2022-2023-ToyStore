@@ -1,7 +1,7 @@
 # Tema: Prodavnica igračaka
 
 ## Link za aplikaciju: 
-[https://pr.to/5872T1/](http://toystore2023-001-site1.htempurl.com/)
+[ToyStore](http://toystore2023-001-site1.htempurl.com/)
  
 ## Članovi tima:
 - [Berin Mašović](https://www.github.com/bmasovic1)
