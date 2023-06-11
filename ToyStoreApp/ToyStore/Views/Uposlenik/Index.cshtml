@@ -58,7 +58,7 @@
                 @Html.DisplayFor(modelItem => item.Lozinka)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Slika)
+                    <img src=@item.Slika>
             </td>
                 <td>
                     @if (User.IsInRole("Admin"))

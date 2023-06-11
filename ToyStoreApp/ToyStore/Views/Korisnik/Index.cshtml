@@ -55,7 +55,7 @@
                 @Html.DisplayFor(modelItem => item.Slika)
             </td>
                <td>
-                    @if (User.IsInRole("Administrator"))
+                    @if (User.IsInRole("Admin"))
                     {
                         <a asp-action="Edit" asp-route-id="@item.KorisnikId">Edit</a>
                         <nobr>|</nobr>
