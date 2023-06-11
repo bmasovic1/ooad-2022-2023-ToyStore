@@ -30,11 +30,16 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Datum)
             </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.NaplataId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.NaplataId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.NaplataId">Delete</a>
-            </td>
+                <td>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.NaplataId">Edit</a>
+                        <nobr>|</nobr>
+                        <a asp-action="Delete" asp-route-id="@item.NaplataId">Delete</a>
+                        <nobr>|</nobr>
+                    }
+                    <a asp-action="Details" asp-route-id="@item.NaplataId">Details</a>
+                </td>
         </tr>
 }
     </tbody>

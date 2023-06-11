@@ -337,11 +337,6 @@ C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\refint\ToyStore.d
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\ToyStore.pdb
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\ToyStore.genruntimeconfig.cache
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\ref\ToyStore.dll
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Admin\Create.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Admin\Delete.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Admin\Details.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Admin\Edit.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Artikal\Create.cshtml.g.cs
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Artikal\Delete.cshtml.g.cs
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Artikal\Details.cshtml.g.cs
@@ -357,11 +352,6 @@ C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Karti
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Kartica\Details.cshtml.g.cs
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Kartica\Edit.cshtml.g.cs
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Kartica\Index.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Korisnik\Create.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Korisnik\Delete.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Korisnik\Details.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Korisnik\Edit.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Korisnik\Index.cshtml.g.cs
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Naplata\Create.cshtml.g.cs
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Naplata\Delete.cshtml.g.cs
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Naplata\Details.cshtml.g.cs
@@ -372,16 +362,6 @@ C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Narud
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Narudzba\Details.cshtml.g.cs
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Narudzba\Edit.cshtml.g.cs
 C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Narudzba\Index.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\RegistrovaniKorisnik\Create.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\RegistrovaniKorisnik\Delete.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\RegistrovaniKorisnik\Details.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\RegistrovaniKorisnik\Edit.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\RegistrovaniKorisnik\Index.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Uposlenik\Create.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Uposlenik\Delete.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Uposlenik\Details.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Uposlenik\Edit.cshtml.g.cs
-C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Uposlenik\Index.cshtml.g.cs
 C:\Users\Hapi\Desktop\projekat ooad\ooad-2022-2023-ToyStore\ToyStoreApp\ToyStore\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\Hapi\Desktop\projekat ooad\ooad-2022-2023-ToyStore\ToyStoreApp\ToyStore\bin\Debug\net5.0\appsettings.json
 C:\Users\Hapi\Desktop\projekat ooad\ooad-2022-2023-ToyStore\ToyStoreApp\ToyStore\bin\Debug\net5.0\ToyStore.StaticWebAssets.xml
@@ -586,3 +566,24 @@ C:\Users\Hapi\Desktop\projekat ooad\ooad-2022-2023-ToyStore\ToyStoreApp\ToyStore
 C:\Users\Hapi\Desktop\projekat ooad\ooad-2022-2023-ToyStore\ToyStoreApp\ToyStore\obj\Debug\net5.0\ref\ToyStore.dll
 C:\Users\Hapi\Desktop\projekat ooad\ooad-2022-2023-ToyStore\ToyStoreApp\ToyStore\obj\Debug\net5.0\ToyStore.pdb
 C:\Users\Hapi\Desktop\projekat ooad\ooad-2022-2023-ToyStore\ToyStoreApp\ToyStore\obj\Debug\net5.0\ToyStore.genruntimeconfig.cache
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Admin\Create.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Admin\Delete.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Admin\Details.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Admin\Edit.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Korisnik\Create.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Korisnik\Delete.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Korisnik\Details.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Korisnik\Edit.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Korisnik\Index.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\RegistrovaniKorisnik\Create.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\RegistrovaniKorisnik\Delete.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\RegistrovaniKorisnik\Details.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\RegistrovaniKorisnik\Edit.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\RegistrovaniKorisnik\Index.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Uposlenik\Create.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Uposlenik\Delete.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Uposlenik\Details.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Uposlenik\Edit.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\Uposlenik\Index.cshtml.g.cs
+C:\Users\HP\Desktop\ooad\ToyStoreApp\ToyStore\obj\Debug\net5.0\Razor\Views\ONama\ONama.cshtml.g.cs

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,7 @@ using ToyStore.Models;
 
 namespace ToyStore.Controllers
 {
+    [Authorize]
     public class FeedbackController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -52,6 +54,7 @@ namespace ToyStore.Controllers
         // POST: Feedback/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("FeedbackId,Ocjena,Komentar,Datum")] Feedback feedback)
@@ -66,6 +69,7 @@ namespace ToyStore.Controllers
         }
 
         // GET: Feedback/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -84,6 +88,7 @@ namespace ToyStore.Controllers
         // POST: Feedback/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("FeedbackId,Ocjena,Komentar,Datum")] Feedback feedback)
@@ -117,6 +122,7 @@ namespace ToyStore.Controllers
         }
 
         // GET: Feedback/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -135,6 +141,7 @@ namespace ToyStore.Controllers
         }
 
         // POST: Feedback/Delete/5
+        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

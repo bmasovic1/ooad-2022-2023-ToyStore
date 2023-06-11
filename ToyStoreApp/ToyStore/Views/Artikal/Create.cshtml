@@ -19,7 +19,13 @@
             </div>
             <div class="form-group">
                 <label asp-for="Brend" class="control-label"></label>
-                <select asp-for="Brend" class="form-control"></select>
+                <select asp-for="Brend" class="form-control">
+                    <option value=""> </option>
+                    @foreach (var value in Enum.GetValues(typeof(Brend)))
+                    {
+                        <option value="@value">@value</option>
+                    }
+                </select>
                 <span asp-validation-for="Brend" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -34,7 +40,13 @@
             </div>
             <div class="form-group">
                 <label asp-for="Pol" class="control-label"></label>
-                <select asp-for="Pol" class="form-control"></select>
+                <select asp-for="Pol" class="form-control">
+                    <option value=""> </option>
+                    @foreach (var value in Enum.GetValues(typeof(Pol)))
+                    {
+                        <option value="@value">@value</option>
+                    }
+                </select>
                 <span asp-validation-for="Pol" class="text-danger"></span>
             </div>
             <div class="form-group">
