@@ -11,7 +11,7 @@ using ToyStore.Models;
 
 namespace ToyStore.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class RegistrovaniKorisnikController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -120,7 +120,6 @@ namespace ToyStore.Controllers
         }
 
         // GET: RegistrovaniKorisnik/Delete/5
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -139,7 +138,6 @@ namespace ToyStore.Controllers
         }
 
         // POST: RegistrovaniKorisnik/Delete/5
-        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

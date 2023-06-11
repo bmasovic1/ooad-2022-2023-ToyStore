@@ -63,7 +63,7 @@
                 @Html.DisplayFor(modelItem => item.Kolicina)
             </td>
                 <td>
-                    @if (User.IsInRole("Admin"))
+                    @if (User.IsInRole("Admin") || User.IsInRole("Uposlenik"))
                     {
                         <a asp-action="Edit" asp-route-id="@item.ArtikalId">Edit</a>
                         <nobr>|</nobr>

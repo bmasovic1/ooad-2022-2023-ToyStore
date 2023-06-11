@@ -11,7 +11,7 @@ using ToyStore.Models;
 
 namespace ToyStore.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class UposlenikController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -46,7 +46,6 @@ namespace ToyStore.Controllers
         }
 
         // GET: Uposlenik/Create
-        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             return View();
@@ -55,7 +54,6 @@ namespace ToyStore.Controllers
         // POST: Uposlenik/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Plata,KorisnikId,Ime,Prezime,KorisnickoIme,Email,Lozinka,Slika")] Uposlenik uposlenik)
@@ -121,7 +119,6 @@ namespace ToyStore.Controllers
         }
 
         // GET: Uposlenik/Delete/5
-        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -140,7 +137,6 @@ namespace ToyStore.Controllers
         }
 
         // POST: Uposlenik/Delete/5
-        [Authorize(Roles = "Admin")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
