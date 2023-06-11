@@ -61,6 +61,7 @@ namespace ToyStore.Controllers
         {
             if (ModelState.IsValid)
             {
+                feedback.Datum = DateTime.Now;
                 _context.Add(feedback);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

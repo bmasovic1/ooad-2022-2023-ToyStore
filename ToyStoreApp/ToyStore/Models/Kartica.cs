@@ -11,7 +11,7 @@ namespace ToyStore.Models
         public int KarticaId { get; set; }
 
         [DisplayName("Broj Kartica")]
-        [Range(1000000000000000, 9999999999999999, ErrorMessage = "Broj kartice mora sadržavati 16 cifara.")]
+        [RegularExpression(@"^\d{16}$", ErrorMessage = "Broj kartice mora sadržavati 16 cifara.")]
         public int BrojKartica { get; set; }
 
         [DisplayName("Mjesec Isteka")]
@@ -23,6 +23,7 @@ namespace ToyStore.Models
         public int GodinaIsteka { get; set; }
 
         [DisplayName("CVV")]
+        [RegularExpression(@"^\d{3}$", ErrorMessage = "Broj CVV mora sadržavati 3 cifare.")]
         public int Cvv { get; set; }
     }
 }
